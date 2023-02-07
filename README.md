@@ -21,3 +21,4 @@ if we miss to declare the unique we can change it with this way.
       ADD CONSTRAINT
       UNIQUE <column that we want>
 
+if we repeat the unique attribute we got an error.
