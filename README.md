@@ -20,3 +20,4 @@ if we miss to declare the unique we can change it with this way.
     - ALTER TABLE <table name>
       ADD CONSTRAINT
       UNIQUE <column that we want>
+
