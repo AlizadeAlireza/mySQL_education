@@ -46,3 +46,10 @@ if we want to add CHECK into a table that already exists.
 
     - ALTER TABLE employees
       ADD CONSTRAINT <that name we want> CHECK (<attribue> <operator> <value>)
+
+after this when we want to add values with false CHECK we got an error.
+
+if we want to drop CHECK into a table that already exists.
+
+    - ALTER TABLE employees
+      DROP  CHECK <that name we want>
