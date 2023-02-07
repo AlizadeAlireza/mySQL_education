@@ -22,3 +22,15 @@ if we miss to declare the unique we can change it with this way.
       UNIQUE <column that we want>
 
 if we repeat the unique attribute we got an error.
+
+# NOT NULL
+
+when we don't want the attribute be NULL and must have value.
+
+for this we can wirte it after the value.
+
+if we want to add not null into a table that already exists.
+
+    - ALTER TABLE <table name>
+      MODIFY <column name>
+      <type declaration> NOT NULL;
