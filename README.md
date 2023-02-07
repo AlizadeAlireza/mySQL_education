@@ -40,4 +40,4 @@ if we want to add not null into a table that already exists.
 we can use it when we want to create table and end of creation,
 we can say:
 
-    - CONSTRAINT <that name we want> CHECK (<attribue> <operator> value)
+    - CONSTRAINT <that name we want> CHECK (<attribue> <operator> <value>)
