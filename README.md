@@ -10,3 +10,7 @@ to get the current date and it's true for the current time with CURRENT_TIME() f
 for the datetime we can use the NOW() function.
 
 we can use the - and + for time to pass it or back in the time.
+
+# UNIQUE
+
+we can select a column and declare unique after type declaration to put limit on it.
