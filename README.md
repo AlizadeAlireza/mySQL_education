@@ -41,3 +41,8 @@ we can use it when we want to create table and end of creation,
 we can say:
 
     - CONSTRAINT <that name we want> CHECK (<attribue> <operator> <value>)
+
+if we want to add CHECK into a table that already exists.
+
+    - ALTER TABLE employees
+      ADD CONSTRAINT <that name we want> CHECK (<attribue> <operator> <value>)

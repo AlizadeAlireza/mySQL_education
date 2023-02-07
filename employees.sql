@@ -7,6 +7,11 @@ CREATE TABLE employees (
     -- CONSTRAINT chk_hourly_pay CHECK (hourly_pay <= 10.00)
 );
 
+-- add to the table that already exist
+
+ALTER TABLE employees
+ADD CONSTRAINT chk_hourly_pay CHECK (hourly_pay <= 10.00);
+
 insert INTO employees
 values(1, "alireza", "alizadeh", 25.50, current_date),
 (2, "amir", "ghorbani", 15.00, current_date),
