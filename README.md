@@ -14,3 +14,9 @@ we can use the - and + for time to pass it or back in the time.
 # UNIQUE
 
 we can select a column and declare unique after type declaration to put limit on it.
+
+if we miss to declare the unique we can change it with this way.
+
+    - ALTER TABLE <table name>
+      ADD CONSTRAINT
+      UNIQUE <column that we want>
