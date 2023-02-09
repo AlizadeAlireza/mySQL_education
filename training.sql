@@ -52,10 +52,10 @@ where work_email = "reza@.com";
 delete from information
 where  work_email = "reza@.com";
 
-alter table information
-add id int
-first;
 
 -- how to undo changes
 set autocommit = off;
+commit;
+rollback;
+
 
