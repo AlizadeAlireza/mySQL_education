@@ -29,3 +29,7 @@ alter table information
 drop column phone_number;
 alter table information
 drop column email;
+
+-- insert rows 
+insert into information
+value("alireza", "alizadeh", 09901679700, "alireza@gmail.com")
