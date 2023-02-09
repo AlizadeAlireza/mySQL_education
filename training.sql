@@ -42,3 +42,20 @@ value("alireza", "alizadeh", 09901679700, "alireza@gmail.com");
 insert into information
 values ("hamid", "alinezhad", 09365239656, "hamid@.com"),
 	   ("reza", "zabihi", 09359118540, "reza@.com");
+
+-- declare our columns
+select first_name, last_name 
+from information
+where work_email = "reza@.com";
+
+-- delete a row
+delete from information
+where  work_email = "reza@.com";
+
+alter table information
+add id int
+first;
+
+-- how to undo changes
+set autocommit = off;
+
