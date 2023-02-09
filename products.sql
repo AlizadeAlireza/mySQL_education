@@ -44,5 +44,13 @@ VALUES (104,"straw"),
        (106,"fork"),
        (107,"spoon");
        
+-- another example for default 
+CREATE TABLE transaction(
+	transaction_id INT,
+    amount DECIMAL(5, 2),
+    transaction_date DATETIME DEFAULT NOW()
+);
+INSERT INTO transaction (transaction_id, amount)
+VALUES (1, 4.99);
        
 SELECT * FROM myDB.products;

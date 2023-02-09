@@ -68,3 +68,5 @@ if we want to default into a column in a table that already exists.
 
     - ALTER TABLE <table name=products>
       AlTER <the name of column> SET DEFAULT <value>
+
+after than we do this in our transaction example it will be save the current time automatically.
