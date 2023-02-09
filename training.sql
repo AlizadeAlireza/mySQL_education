@@ -10,7 +10,7 @@ create table his_name (
 -- rename the table name
 rename table full_name to information;
 
--- add attribute to the table
+-- add columns to the table
 alter table information
 add phone_number varchar(20),
 add email varchar(40);
@@ -30,6 +30,15 @@ drop column phone_number;
 alter table information
 drop column email;
 
--- insert rows 
+-- change the order 
+alter table information
+modify phone_number varchar(20) after last_name;
+
+-- insert values (rows)
+-- one value
 insert into information
-value("alireza", "alizadeh", 09901679700, "alireza@gmail.com")
+value("alireza", "alizadeh", 09901679700, "alireza@gmail.com");
+-- multi values
+insert into information
+values ("hamid", "alinezhad", 09365239656, "hamid@.com"),
+	   ("reza", "zabihi", 09359118540, "reza@.com");
