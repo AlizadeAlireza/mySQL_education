@@ -16,4 +16,10 @@ add phone_number varchar(20),
 add email varchar(40);
 
 -- rename the column (attribute)
+alter table information
+rename column email to work_email,
+rename column phone_number to phone;
 
+-- change type
+alter table information 
+modify column phone INT(40);
