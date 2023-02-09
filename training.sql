@@ -58,4 +58,17 @@ set autocommit = off;
 commit;
 rollback;
 
+-- update
+Update information 
+set id = 3 where first_name = "reza";
 
+delete from information 
+where id is null;
+
+-- insert date and time into information table
+update  information 
+set date_time = now(),
+	date_ = current_date(),
+    time_ = current_time()
+    where id = 3
+	
