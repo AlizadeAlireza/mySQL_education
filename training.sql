@@ -70,5 +70,10 @@ update  information
 set date_time = now(),
 	date_ = current_date(),
     time_ = current_time()
-    where id = 3
+    where id = 3;
+    
+-- unique
+alter table information
+add constraint
+unique (id);
 	
