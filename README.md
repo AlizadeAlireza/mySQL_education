@@ -59,12 +59,12 @@ if we want to drop CHECK into a table that already exists.
 when inserting a new row, if we do not specify a value for a column
 by DEFAULT we can add some value we set.
 
-    - CREATE TABLE <table name=employees>
+    - CREATE TABLE <table name=products>
       (
         <column> <data type> DEFAULT <value>, and etc.
       )
 
 if we want to default into a column in a table that already exists.
 
-    - ALTER TABLE <table name=employees>
+    - ALTER TABLE <table name=products>
       AlTER <the name of column> SET DEFAULT <value>
