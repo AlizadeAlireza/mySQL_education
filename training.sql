@@ -22,4 +22,10 @@ rename column phone_number to phone;
 
 -- change type
 alter table information 
-modify column phone INT(40);
+modify column phone INT(20);
+
+-- delete a column
+alter table information
+drop column phone_number;
+alter table information
+drop column email;
