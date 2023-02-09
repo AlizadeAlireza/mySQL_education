@@ -27,7 +27,22 @@ VALUES (100, "hamburger", 3.99),
 INSERT INTO products
 value(104, "cookies", NULL);
 
+-- default 
+CREATE TABLE products (
+	product_id INT,
+	product_name VARCHAR(25),
+	price DECIMAL(4, 2) DEFAULT 0.00
+);
 
+-- default when table already exists
+ALTER TABLE products
+ALTER price SET DEFAULT 0;
+
+INSERT INTO products (product_id, product_name)
+VALUES (104,"straw"),
+	   (105,"napkin"),
+       (106,"fork"),
+       (107,"spoon");
        
        
 SELECT * FROM myDB.products;

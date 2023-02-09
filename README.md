@@ -51,5 +51,20 @@ after this when we want to add values with false CHECK we got an error.
 
 if we want to drop CHECK into a table that already exists.
 
-    - ALTER TABLE employees
+    - ALTER TABLE <tableName=employees>
       DROP  CHECK <that name we want>
+
+# DEFAULT
+
+when inserting a new row, if we do not specify a value for a column
+by DEFAULT we can add some value we set.
+
+    - CREATE TABLE <table name=employees>
+      (
+        <column> <data type> DEFAULT <value>, and etc.
+      )
+
+if we want to default into a column in a table that already exists.
+
+    - ALTER TABLE <table name=employees>
+      AlTER <the name of column> SET DEFAULT <value>

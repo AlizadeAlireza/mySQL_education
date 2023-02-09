@@ -62,7 +62,7 @@ rollback;
 Update information 
 set id = 3 where first_name = "reza";
 
-delete from information 
+delete from information
 where id is null;
 
 -- insert date and time into information table
