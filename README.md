@@ -102,3 +102,7 @@ after the creation we can set value on our column.
 
     - ALTER TABLE <table name>
       AUTO_INCREMENT = <value(int)>
+
+# FOREIGN KEYS
+
+is a PK from one table to a different table.
