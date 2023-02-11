@@ -11,3 +11,12 @@ INSERT INTO customers (first_name, last_name)
 VALUES ("Fred", "Fish"),
 	   ("Larry", "Lobster"),
 	   ("Bubble", "Bass");
+
+-- foreign key 
+CREATE TABLE transactinos(
+	tx_id INT PRIMARY KEY AUTO_INCREMENT,
+    customer_id INT,
+    amount DECIMAL(5, 2),
+    FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
+    );
+    
