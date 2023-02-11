@@ -85,6 +85,11 @@ create table products (
 );
 
 -- default for table that already exists
-
 alter table products
 alter price set default 0;
+
+-- insert value for default 
+insert into products (product_id, product_name)
+values(100, "fork"),
+	  (101, "spoon"),
+      (102, "plate");
