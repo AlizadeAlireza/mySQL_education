@@ -114,3 +114,8 @@ with using FK we can establish a link between two tables.
         <column2> <type>,
         FOREIGN KEY(column2) REFERENCES <other table>(column2)
     )
+
+if we want drop a foreing key:
+
+    - ALTER TABLE <table name>
+      DROP FOREIGN KEY <foreign key name in properties>

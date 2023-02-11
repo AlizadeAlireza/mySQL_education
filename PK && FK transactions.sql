@@ -19,4 +19,6 @@ CREATE TABLE transactinos(
     amount DECIMAL(5, 2),
     FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
     );
-    
+-- Drop a foreign key
+ALTER TABLE transactinos
+DROP FOREIGN KEY transactinos_ibfk_1;
