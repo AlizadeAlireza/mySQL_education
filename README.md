@@ -123,5 +123,5 @@ if we want drop a foreing key:
 if we want add a foreing key when table already exist:
 
     - ALTER TABLE <table name>
-      ADD CONSTRAINT fk_(column)  ---> in here fk_customer_id
+      ADD CONSTRAINT fk_(column)  ---> in here fk_customer_id ---> it's just a name that we want to use
       FOREIGN KEY(column) REFERENCES <table>
