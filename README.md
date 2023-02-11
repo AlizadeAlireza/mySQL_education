@@ -106,3 +106,5 @@ after the creation we can set value on our column.
 # FOREIGN KEYS
 
 is a PK from one table to a different table.
+
+with using FK we can establish a link between two tables.
