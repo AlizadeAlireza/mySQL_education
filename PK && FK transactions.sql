@@ -11,14 +11,19 @@ INSERT INTO customers (first_name, last_name)
 VALUES ("Fred", "Fish"),
 	   ("Larry", "Lobster"),
 	   ("Bubble", "Bass");
-
+       
 -- foreign key 
-CREATE TABLE transactinos(
+CREATE TABLE transactions(
 	tx_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_id INT,
     amount DECIMAL(5, 2),
     FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
     );
 -- Drop a foreign key
-ALTER TABLE transactinos
-DROP FOREIGN KEY transactinos_ibfk_1;
+ALTER TABLE transactions
+DROP FOREIGN KEY transactions_ibfk_1;
+-- add foreign key on the table already exists
+ALTER TABLE transactions
+ADD CONSTRAINT fk_customer_id
+FOREIGN KEY(customer_id) REFERENCES customers(customer_id);
+

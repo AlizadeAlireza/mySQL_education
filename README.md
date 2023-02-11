@@ -119,3 +119,9 @@ if we want drop a foreing key:
 
     - ALTER TABLE <table name>
       DROP FOREIGN KEY <foreign key name in properties>
+
+if we want add a foreing key when table already exist:
+
+    - ALTER TABLE <table name>
+      ADD CONSTRAINT fk_(column)  ---> in here fk_customer_id
+      FOREIGN KEY(column) REFERENCES <table>
