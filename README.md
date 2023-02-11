@@ -86,3 +86,14 @@ if we want to set primary key on a column in a table that already exists.
     - ALTER TABLE <table name>
       ADD CONSTRAINT
       PRIMARY KEY (<the column>)
+
+# AUTO INCREMENT
+
+in our transaction example, when we insert a new value our tx_id that is a PK can be
+populated automatically.
+
+AUTO INCREAMNT can set only on the PK.
+
+    - CREATE TABLE <table name>(
+        <column> <type> PRIMARY KEY AUTO_INCREMENT
+    )
