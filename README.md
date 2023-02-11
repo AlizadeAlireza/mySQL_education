@@ -70,3 +70,19 @@ if we want to default into a column in a table that already exists.
       AlTER <the name of column> SET DEFAULT <value>
 
 after than we do this in our transaction example it will be save the current time automatically.
+
+# PRIMARY KEY
+
+can be applied to a column where each value of that column must both be unique and not null.
+
+a table can only have one primary key.
+
+    -  CREATE TABLE <table name>(
+        <column> <type> PRIMARY KEY
+    )
+
+if we want to set primary key on a column in a table that already exists.
+
+    - ALTER TABLE <table name>
+      ADD CONSTRAINT
+      PRIMARY KEY (<the column>)
