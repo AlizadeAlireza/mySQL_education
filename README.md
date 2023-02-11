@@ -95,5 +95,10 @@ populated automatically.
 AUTO INCREAMNT can set only on the PK.
 
     - CREATE TABLE <table name>(
-        <column> <type> PRIMARY KEY AUTO_INCREMENT
+        <column> <type> PRIMARY KEY AUTO_INCREMENT   ---> we can set value on auto increment for start
     )
+
+after the creation we can set value on our column.
+
+    - ALTER TABLE <table name>
+      AUTO_INCREMENT = <value(int)>

@@ -18,3 +18,12 @@ CREATE TABLE transactions(
 	transaction_id INT PRIMARY KEY AUTO_INCREMENT,
     amount DECIMAL(5,2)
 );
+
+-- insert value into an auto incerement column
+INSERT INTO transactions (amount)
+VALUES(5),
+	  (6);
+-- set value on auto increment
+ALTER TABLE transactions
+AUTO_INCREMENT = 1000;
+
