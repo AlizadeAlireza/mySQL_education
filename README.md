@@ -108,3 +108,9 @@ after the creation we can set value on our column.
 is a PK from one table to a different table.
 
 with using FK we can establish a link between two tables.
+
+    - CREATE TABLE <table name>(
+        <column> <type> PRIMARY KEY AUTO_INCREMENT,
+        <column2> <type>,
+        FOREIGN KEY(column2) REFERENCES <other table>(column2)
+    )
