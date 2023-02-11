@@ -76,4 +76,15 @@ set date_time = now(),
 alter table information
 add constraint
 unique (id);
-	
+
+-- default 
+create table products (
+	product_id INT,
+    product_name VARCHAR(25),
+    price DECIMAL(4, 2) DEFAULT 0 -- for free items that we don't want insert value for it
+);
+
+-- default for table that already exists
+
+alter table products
+alter price set default 0;
