@@ -125,3 +125,13 @@ if we want add a foreing key when table already exist:
     - ALTER TABLE <table name>
       ADD CONSTRAINT fk_(column)  ---> in here fk_customer_id ---> it's just a name that we want to use
       FOREIGN KEY(column) REFERENCES <table>
+
+# JOINS
+
+joins is a clause is used to combine rows from two or more tables based on a related column.
+
+## INNER JOIN
+
+    - SELECT *
+      FROM <column1> INNER JOIN <column2>
+      ON column1.fk = column2.pk
