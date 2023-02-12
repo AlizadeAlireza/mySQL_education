@@ -135,3 +135,20 @@ joins is a clause is used to combine rows from two or more tables based on a rel
     - SELECT *
       FROM <column1> INNER JOIN <column2>
       ON column1.fk = column2.pk
+
+we can use specific columns too.
+
+but the customers that haven't any customer_id (like pay by the cash)
+can't be select from matching the columns.
+
+so we can use LEFT or RIGHT JOINS
+
+## LEFT JOIN
+
+with the left join we are going to display everything from the table on the left.
+
+    - SELECT *
+          FROM <column1> LEFT JOIN <column2>
+          ON column1.fk = column2.pk
+
+we can get also null values non matching with column2.pk related.
