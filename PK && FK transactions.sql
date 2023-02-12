@@ -51,3 +51,7 @@ ON transactions.customer_id = customers.customer_id;
 SELECT *
 FROM transactions LEFT JOIN customers
 ON transactions.customer_id = customers.customer_id;
+-- RIGHT JOIN
+SELECT *
+FROM transactions RIGHT JOIN customers
+ON transactions.customer_id = customers.customer_id;

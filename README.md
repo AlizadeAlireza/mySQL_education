@@ -152,3 +152,13 @@ with the left join we are going to display everything from the table on the left
           ON column1.fk = column2.pk
 
 we can get also null values non matching with column2.pk related.
+
+## RIGHT JOIN
+
+with the left join we are going to display everything from the table on the left.
+
+    - SELECT *
+          FROM <column1> LEFT JOIN <column2>
+          ON column1.fk = column2.pk
+
+we can get also null values non matching with column1.fk related.
