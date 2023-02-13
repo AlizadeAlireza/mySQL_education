@@ -59,3 +59,6 @@ ON transactions.customer_id = customers.customer_id;
 -- functions
 SELECT COUNT(amount)
 FROM transactions;
+-- set alias
+SELECT COUNT(amount) AS count
+FROM transactions;
