@@ -185,3 +185,5 @@ i feel it's just like print in python() or console.log() in JavaScript.
 # AND, OR, NOT(operators)
 
 these are logical operators to combine more than one conditions.
+
+after WHERE we can declare our rules for getting the information.

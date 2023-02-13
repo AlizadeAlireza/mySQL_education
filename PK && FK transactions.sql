@@ -82,3 +82,5 @@ SELECT CONCAT(product_name, " is: ", price) AS full_price
 FROM products;
 
 -- AND, OR, NOT(operators)
+SELECT * FROM employees
+WHERE hire_date < "2023-02-14" AND job = "cook";

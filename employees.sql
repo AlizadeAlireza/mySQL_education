@@ -1,5 +1,5 @@
 CREATE TABLE employees (
-	employee_id	INT(10),
+	employee_id	INT,
     first_name	CHAR(50),
     last_name	CHAR(50),
     hourly_pay	DECIMAL(5,2),
@@ -18,3 +18,13 @@ values(1, "alireza", "alizadeh", 25.50, current_date),
 (3, "saleh", "shirzad", 12.50, current_date),
 (4, "reza", "zabihi", 12.50, current_date),
 (5, "mohsen", "karimi", 17.25, current_date);
+
+-- add column(job) to employees table
+ALTER TABLE employees
+ADD COLUMN job VARCHAR(25) AFTER hourly_pay;
+
+-- add  rows in this table
+UPDATE employees
+SET job = "manager"
+WHERE employee_id = 5;
+-- SET SQL_SAFE_UPDATES = 0;
