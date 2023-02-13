@@ -65,3 +65,6 @@ FROM transactions;
 -- with string
 SELECT COUNT(amount) AS "today's transaction"
 FROM transactions;
+-- max()
+SELECT MAX(amount) AS maximum
+FROM transactions;

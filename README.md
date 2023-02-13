@@ -173,3 +173,6 @@ we can use COUNT().
         - SELECT COUNT<column that we want> ---> if we want alias : AS <the name that we want> or "string"
           FROM <table name>
           WHERE <column>
+
+we can also use MAX() to find the maximum value of our column amount.
+also we have MIN() to find minimum and AVG() for the average of our specefic attribue.
