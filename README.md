@@ -187,3 +187,5 @@ i feel it's just like print in python() or console.log() in JavaScript.
 these are logical operators to combine more than one conditions.
 
 after WHERE we can declare our rules for getting the information.
+
+with OR operator only one condition needs to be true.
