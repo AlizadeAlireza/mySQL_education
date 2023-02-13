@@ -80,3 +80,5 @@ FROM transactions;
 -- concat()
 SELECT CONCAT(product_name, " is: ", price) AS full_price
 FROM products;
+
+-- AND, OR, NOT(operators)

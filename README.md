@@ -181,3 +181,7 @@ SUM() for summing our values.
 
 we can combine two columns together with the concat function and create a new column.
 i feel it's just like print in python() or console.log() in JavaScript.
+
+# AND, OR, NOT(operators)
+
+these are logical operators to combine more than one conditions.
