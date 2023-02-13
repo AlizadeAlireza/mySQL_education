@@ -25,6 +25,6 @@ ADD COLUMN job VARCHAR(25) AFTER hourly_pay;
 
 -- add  rows in this table
 UPDATE employees
-SET job = "manager"
-WHERE employee_id = 5;
+SET job = "cashier"
+WHERE employee_id = 2;
 -- SET SQL_SAFE_UPDATES = 0;

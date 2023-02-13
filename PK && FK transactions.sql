@@ -93,3 +93,7 @@ WHERE NOT job = "cook" AND hourly_pay > 18;
 SELECT *
 FROM employees
 WHERE hire_date BETWEEN "2023-02-04" AND "2023-02-07";
+-- IN
+SELECT *
+FROM employees
+WHERE job IN ("cook", "cashier");
