@@ -169,3 +169,7 @@ is a stored program that we can pass parameters into to return a value.
 
 like count how many transactions took place on a certain day.
 we can use COUNT().
+
+        - SELECT COUNT<column that we want>
+          FROM <table name>
+          WHERE <column>

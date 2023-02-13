@@ -55,3 +55,7 @@ ON transactions.customer_id = customers.customer_id;
 SELECT *
 FROM transactions RIGHT JOIN customers
 ON transactions.customer_id = customers.customer_id;
+
+-- functions
+SELECT COUNT(amount)
+FROM transactions;
