@@ -162,3 +162,10 @@ with the left join we are going to display everything from the table on the left
           ON column1.fk = column2.pk
 
 we can get also null values non matching with column1.fk related.
+
+# FUNCTIONS
+
+is a stored program that we can pass parameters into to return a value.
+
+like count how many transactions took place on a certain day.
+we can use COUNT().
