@@ -74,3 +74,6 @@ FROM transactions;
 -- avg()
 SELECT AVG(amount) AS average
 FROM transactions;
+-- sum()
+SELECT SUM(amount) AS summation
+FROM transactions;
