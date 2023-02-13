@@ -178,3 +178,6 @@ we can also use MAX() to find the maximum value of our column amount.
 also we have MIN() to find minimum and AVG() for the average of our specefic attribue.
 
 SUM() for summing our values.
+
+we can combine two columns together with the concat function and create a new column.
+i feel it's just like print in python() or console.log() in JavaScript.

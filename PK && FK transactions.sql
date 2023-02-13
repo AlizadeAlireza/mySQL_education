@@ -77,3 +77,6 @@ FROM transactions;
 -- sum()
 SELECT SUM(amount) AS summation
 FROM transactions;
+-- concat()
+SELECT CONCAT(product_name, " is: ", price) AS full_price
+FROM products;
