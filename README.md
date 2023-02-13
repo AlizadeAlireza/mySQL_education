@@ -193,3 +193,7 @@ with OR operator only one condition needs to be true.
 NOT is an operator that give just one operand and return all of result instead that given value.
 
 is better to use BETWEEN operator when using one column, because redability.
+
+we have another logical operator that it's name is IN.
+
+with this operator we can find any values that are within a set.
