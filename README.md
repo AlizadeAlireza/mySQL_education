@@ -170,6 +170,6 @@ is a stored program that we can pass parameters into to return a value.
 like count how many transactions took place on a certain day.
 we can use COUNT().
 
-        - SELECT COUNT<column that we want> ---> if we want alias : AS <the name that we want>
+        - SELECT COUNT<column that we want> ---> if we want alias : AS <the name that we want> or "string"
           FROM <table name>
           WHERE <column>

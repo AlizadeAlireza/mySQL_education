@@ -62,3 +62,6 @@ FROM transactions;
 -- set alias
 SELECT COUNT(amount) AS count
 FROM transactions;
+-- with string
+SELECT COUNT(amount) AS "today's transaction"
+FROM transactions;
