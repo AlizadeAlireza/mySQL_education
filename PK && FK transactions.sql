@@ -68,3 +68,9 @@ FROM transactions;
 -- max()
 SELECT MAX(amount) AS maximum
 FROM transactions;
+-- min()
+SELECT MIN(amount) AS minimum
+FROM transactions;
+-- avg()
+SELECT AVG(amount) AS average
+FROM transactions;
