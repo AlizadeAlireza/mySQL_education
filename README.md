@@ -189,3 +189,7 @@ these are logical operators to combine more than one conditions.
 after WHERE we can declare our rules for getting the information.
 
 with OR operator only one condition needs to be true.
+
+NOT is an operator that give just one operand and return all of result instead that given value.
+
+is better to use BETWEEN operator when using one column, because redability.
