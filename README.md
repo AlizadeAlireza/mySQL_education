@@ -182,18 +182,35 @@ SUM() for summing our values.
 we can combine two columns together with the concat function and create a new column.
 i feel it's just like print in python() or console.log() in JavaScript.
 
-# AND, OR, NOT(operators)
+# AND, OR, NOT, BETWEEN, IN --> (operators)
 
 these are logical operators to combine more than one conditions.
 
+## AND
+
 after WHERE we can declare our rules for getting the information.
+and all of the conditions must be true.
+
+## OR
 
 with OR operator only one condition needs to be true.
 
+## NOT
+
 NOT is an operator that give just one operand and return all of result instead that given value.
 
+    - WHERE NOT <column> = <value> <operator> <value> ---> can be have operator too
+
+## BETWEEN
+
 is better to use BETWEEN operator when using one column, because redability.
+
+    - WHERE <column> BETWEEN <value> <operator> <value>. ----> it can be more or everything can be true
+
+## IN
 
 we have another logical operator that it's name is IN.
 
 with this operator we can find any values that are within a set.
+
+    - WHERE <column> IN (values)
