@@ -97,3 +97,7 @@ WHERE hire_date BETWEEN "2023-02-04" AND "2023-02-07";
 SELECT *
 FROM employees
 WHERE job IN ("cook", "cashier");
+
+-- ORDER BY
+SELECT * FROM employees
+ORDER BY hourly_pay DESC;
