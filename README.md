@@ -214,3 +214,16 @@ we have another logical operator that it's name is IN.
 with this operator we can find any values that are within a set.
 
     - WHERE <column> IN (values)
+
+## WILD CARDS ---> (<%> , <\_>)
+
+each of these characters is used to substitute one or more caracters in a string.
+
+like we have an example that the name start with the S character.
+
+        - SELECT * FROM <table name>
+          WHERE first_name LIKE "<character>%";
+
+this query tell us every string or pattern that start with that character.
+
+the end carachter is just like this but the <%> set first of string. --> "%<character>"

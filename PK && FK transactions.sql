@@ -101,3 +101,13 @@ WHERE job IN ("cook", "cashier");
 -- ORDER BY
 SELECT * FROM employees
 ORDER BY hourly_pay DESC;
+
+-- WILD CARD CHARACTERS --> % _
+SELECT * FROM employees
+WHERE first_name LIKE "a%";
+-- with year
+SELECT * FROM employees
+WHERE hire_date LIKE "2023%";
+-- end of the name
+SELECT * FROM employees
+WHERE first_name LIKE "%h";

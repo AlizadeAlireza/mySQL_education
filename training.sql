@@ -93,3 +93,4 @@ insert into products (product_id, product_name)
 values(100, "fork"),
 	  (101, "spoon"),
       (102, "plate");
+      
