@@ -229,3 +229,14 @@ with this operator we can find any values that are within a set.
     this query tell us every string or pattern that start with that character.
 
     the end carachter is just like this but the <%> set first of string. --> "%<character>"
+
+### \_
+
+    underscore wild character represents one random letter.
+
+    like find any name that have eza.
+    so we say:
+
+            - WHERE <column> LIKE "_eza" ---> mysql search for 4 letter word
+
+    if we change it to _eza_ ---> mysql search for 5 letter word that the first and last letter is random.

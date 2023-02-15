@@ -111,3 +111,10 @@ WHERE hire_date LIKE "2023%";
 -- end of the name
 SELECT * FROM employees
 WHERE first_name LIKE "%h";
+-- _
+SELECT * FROM employees
+WHERE job LIKE "____ger";
+-- for chashier in jobs
+-- the first and second word not important.the third word be s and any random word after it.
+SELECT * FROM employees
+WHERE job LIKE "__s%"; 
