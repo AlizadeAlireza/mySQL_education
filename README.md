@@ -217,13 +217,15 @@ with this operator we can find any values that are within a set.
 
 ## WILD CARDS ---> (<%> , <\_>)
 
-each of these characters is used to substitute one or more caracters in a string.
+### %
 
-like we have an example that the name start with the S character.
+    each of these characters is used to substitute one or more caracters in a string.
 
-        - SELECT * FROM <table name>
-          WHERE first_name LIKE "<character>%";
+    like we have an example that the name start with the S character.
 
-this query tell us every string or pattern that start with that character.
+            - SELECT * FROM <table name>
+            WHERE first_name LIKE "<character>%";
 
-the end carachter is just like this but the <%> set first of string. --> "%<character>"
+    this query tell us every string or pattern that start with that character.
+
+    the end carachter is just like this but the <%> set first of string. --> "%<character>"
