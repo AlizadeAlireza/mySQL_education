@@ -98,11 +98,8 @@ SELECT *
 FROM employees
 WHERE job IN ("cook", "cashier");
 
--- ORDER BY
-SELECT * FROM employees
-ORDER BY hourly_pay DESC;
-
 -- WILD CARD CHARACTERS --> % _
+
 SELECT * FROM employees
 WHERE first_name LIKE "a%";
 -- with year
@@ -118,3 +115,15 @@ WHERE job LIKE "____ger";
 -- the first and second word not important.the third word be s and any random word after it.
 SELECT * FROM employees
 WHERE job LIKE "__s%"; 
+
+-- ORDER BY
+
+-- descending
+SELECT * FROM employees
+ORDER BY hourly_pay DESC;
+-- ascending
+SELECT * FROM employees
+ORDER BY hourly_pay ASC;
+-- default
+SELECT * FROM employees
+ORDER BY hourly_pay; -- just like ASC but we don't write it.

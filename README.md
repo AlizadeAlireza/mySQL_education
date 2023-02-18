@@ -240,3 +240,11 @@ with this operator we can find any values that are within a set.
             - WHERE <column> LIKE "_eza" ---> mysql search for 4 letter word
 
     if we change it to _eza_ ---> mysql search for 5 letter word that the first and last letter is random.
+
+# ORDER BY
+
+order by clause sorts the results of a query in either ascending or descending order,
+based on which column we list.
+
+            - SELECT * FROM <table name>
+              ORDER BY <column> <DESC | ASC>;
