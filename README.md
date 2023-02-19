@@ -250,3 +250,22 @@ based on which column we list.
               ORDER BY <column> <DESC | ASC>;
 
 if two amount is the same, we can order with another attribute.
+
+# LIMIT
+
+is used to limit the number of records that are quarried.
+
+it is very useful when we working with a lot of data.
+like display large data set on different pages.
+
+        - SELECT * FROM <table name>
+          LIMIT <number>
+
+          or
+
+          ORDER BY <attribute> LIMIT <number>
+
+        - SELECT * FROM <table name>
+          LIMIT <offset>, <number of how many after off set>
+
+          LIMIT 1, 1; ----> one after 1 is 2.
