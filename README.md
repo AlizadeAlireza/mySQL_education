@@ -269,3 +269,6 @@ like display large data set on different pages.
           LIMIT <offset>, <number of how many after off set>
 
           LIMIT 1, 1; ----> one after 1 is 2.
+          LIMIT 2, 3; ----> three after 2 will be 5.
+
+if i need the next set of 10 customers, i can add an offset of 10.

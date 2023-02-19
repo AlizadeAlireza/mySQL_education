@@ -130,3 +130,8 @@ ORDER BY hourly_pay; -- just like ASC but we don't write it.
 -- the same orderby
 SELECT * FROM transactions
 ORDER BY amount, customer_id;
+
+-- LIMIT
+SELECT * FROM customers
+LIMIT 2;
+-- LIMIT 2, 1;
