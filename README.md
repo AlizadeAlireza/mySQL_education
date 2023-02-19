@@ -248,3 +248,5 @@ based on which column we list.
 
             - SELECT * FROM <table name>
               ORDER BY <column> <DESC | ASC>;
+
+if two amount is the same, we can order with another attribute.

@@ -127,3 +127,6 @@ ORDER BY hourly_pay ASC;
 -- default
 SELECT * FROM employees
 ORDER BY hourly_pay; -- just like ASC but we don't write it.
+-- the same orderby
+SELECT * FROM transactions
+ORDER BY amount, customer_id;
