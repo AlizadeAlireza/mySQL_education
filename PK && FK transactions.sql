@@ -134,4 +134,5 @@ ORDER BY amount, customer_id;
 -- LIMIT
 SELECT * FROM customers
 LIMIT 2;
--- LIMIT 2, 1;
+
+-- UNION 

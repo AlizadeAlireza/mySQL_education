@@ -272,3 +272,5 @@ like display large data set on different pages.
           LIMIT 2, 3; ----> three after 2 will be 5.
 
 if i need the next set of 10 customers, i can add an offset of 10.
+
+# UNION
